@@ -5,11 +5,8 @@ const inc = (obj) => {
 };
 
 const num = { n: 5 };
-console.dir(num);
 
 const num2 = inc(num);
 
-console.dir(num2); 
-console.dir(num);
 
 module.exports = { inc };

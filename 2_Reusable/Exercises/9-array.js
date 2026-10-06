@@ -29,8 +29,9 @@ const phonebook = [
 ];
 
 const findPhoneByName = (name) => {
-    for(const obj of phonebook){
-        if(obj.name === name) return obj.phone;
+    for (const obj of phonebook) {
+        if (obj.name === name) return obj.phone;
+        else console.log("This name is not in the phonebook")
     }
 };
 module.exports = { phonebook, findPhoneByName };

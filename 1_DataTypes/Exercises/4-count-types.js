@@ -17,5 +17,4 @@ for (const value of ArrayOfTypes) {
     console.dir("It's another type");
   }
 }
-console.dir(countTypesInArray);
 module.exports = { countTypesInArray };

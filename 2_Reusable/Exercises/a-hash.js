@@ -8,12 +8,11 @@ contains `phone`.
 Use `hash[key]` to find needed phone. */
 
 const phonebook = {
-        "Abdul": 380676776677,
-        "Rahmad": 380671400880,
-        "Bimba": 380989252420,
-        "Gosha": 380676665646
-    }
-
+    "Abdul": 380676776677,
+    "Rahmad": 380671400880,
+    "Bimba": 380989252420,
+    "Gosha": 380676665646
+}
 
 const findPhoneByName = (name) => phonebook[name];
 
