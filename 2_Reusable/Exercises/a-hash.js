@@ -14,6 +14,10 @@ const phonebook = {
     "Gosha": 380676665646
 }
 
-const findPhoneByName = (name) => phonebook[name];
+const findPhoneByName = (name) => {
+    if (name in phonebook) return phonebook[name];
+    console.log("This name is not in the phonebook");
+    return undefined;
+}
 
 module.exports = { phonebook, findPhoneByName };
