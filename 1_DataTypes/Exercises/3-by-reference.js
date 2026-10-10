@@ -1,12 +1,12 @@
 'use strict';
 
 const inc = (obj) => {
-  return obj.n += 1;
+   obj.n += 1;
 };
 
 const num = { n: 5 };
-
-const num2 = inc(num);
+const num2 = num;
+inc(num2)
 
 
 module.exports = { inc };
